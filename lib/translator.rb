@@ -36,9 +36,9 @@ def get_english_meaning(library, emoticon)
     #binding.pry
     if emoticon_lib[key][:japanese] == emoticon
       output = key
-      #binding.pry
+      binding.pry
     end
   end
-  binding.pry
+  #binding.pry
   output
 end
