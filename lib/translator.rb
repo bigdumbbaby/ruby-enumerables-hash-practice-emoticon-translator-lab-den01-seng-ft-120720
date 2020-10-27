@@ -15,8 +15,9 @@ def load_library(library)
   output_hash
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(emoticon)
   # code goes here
+  
 end
 
 def get_english_meaning
