@@ -8,7 +8,8 @@ def load_library(library)
   japanese = {}
   emoticon_array.each_with_object({}) do |(key, value), final_array|
     final_array[key] = {}
-    
+    value.each do |inner_key, names|
+    end
     binding.pry
   end
   binding.pry
