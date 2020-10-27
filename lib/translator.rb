@@ -23,6 +23,8 @@ def get_japanese_emoticon(library, emoticon)
     #binding.pry
     if emoticon_lib[key][value][1] = emoticon
       output = emoticon_lib[key]
+    end
+    output
   end
   
 end
