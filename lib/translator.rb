@@ -18,15 +18,16 @@ end
 def get_japanese_emoticon(library, emoticon)
   # code goes here
   emoticon_lib = load_library(library)
-  
+  output = "Sorry, that emoticon was not found"
   emoticon_lib.each do |key, value|
     #binding.pry
-    if emoticon_lib[key][value][1] = emoticon
-      output = emoticon_lib[key]
+    if emoticon_lib[key][:english] == emoticon
+      output = key
+      #binding.pry
     end
-    output
   end
-  
+  #binding.pry
+  output
 end
 
 def get_english_meaning(library, emoticon)
