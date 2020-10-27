@@ -7,7 +7,7 @@ def load_library(library)
   final_array = {}
   emoticon_array.each do |key, value|
     final_array[key] = {}
-    final_array[key][:english = value[0], :japanese = value[1]]
+    final_array[key][:english => value[0], :japanese => value[1]]
     binding.pry
   end
   binding.pry
