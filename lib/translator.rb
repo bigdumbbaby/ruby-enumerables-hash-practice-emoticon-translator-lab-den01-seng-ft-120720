@@ -4,7 +4,7 @@ require "yaml"
 
 def load_library(library)
   emoticon_array = YAML.load_file(library)
-  output_array = {}
+  output_hash = {}
   emoticon_array.each do |key, value|
     final_array[key] = {}
     final_array[key][:english] = value[0]
