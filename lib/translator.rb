@@ -9,7 +9,7 @@ def load_library(library)
   emoticon_array.each_with_object({}) do |(key, value), final_array|
     value.each do |inner_key|
       english = inner_key
-      binding.pry
+      #binding.pry
     end
     binding.pry
   end
