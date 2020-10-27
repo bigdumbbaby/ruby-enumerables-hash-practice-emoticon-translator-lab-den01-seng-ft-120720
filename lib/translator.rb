@@ -36,6 +36,7 @@ def get_english_meaning(library, emoticon)
     #binding.pry
     if emoticon_lib[key][:english] = emoticon
       output = emoticon_lib[key]
+      binding.pry
     end
     output
   end
