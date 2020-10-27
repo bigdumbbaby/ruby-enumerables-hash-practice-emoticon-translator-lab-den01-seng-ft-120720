@@ -39,5 +39,6 @@ def get_english_meaning(library, emoticon)
       #binding.pry
     end
   end
+  binding.pry
   output
 end
