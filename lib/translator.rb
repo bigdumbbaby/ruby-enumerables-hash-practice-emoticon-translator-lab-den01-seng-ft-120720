@@ -15,9 +15,9 @@ def load_library(library)
   output_hash
 end
 
-def get_japanese_emoticon(emoticon)
+def get_japanese_emoticon(library, emoticon)
   # code goes here
-  emoticon_lib = load_library("lib/emoticons.yml")
+  emoticon_lib = load_library(library)
   
   emoticon_lib.each do |key, value|
     binding.pry
