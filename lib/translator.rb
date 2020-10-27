@@ -31,7 +31,7 @@ end
 
 def get_english_meaning(library, emoticon)
   emoticon_lib = load_library(library)
-  output = ""
+  output = "Sorry, that emoticon was not found"
   emoticon_lib.each do |key, value|
     #binding.pry
     if emoticon_lib[key][:japanese] == emoticon
