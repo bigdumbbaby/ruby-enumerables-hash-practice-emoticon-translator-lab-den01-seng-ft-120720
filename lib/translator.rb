@@ -6,7 +6,7 @@ def load_library(library)
   emoticon_array = YAML.load_file(library)
   emoticon_array.each_with_object({}) do |(key, value), final_array|
     output[key][:english] = value[0]
-    output[key][:japanese] = value
+    output[key][:japanese] = value[1]
   end
   binding.pry
 end
