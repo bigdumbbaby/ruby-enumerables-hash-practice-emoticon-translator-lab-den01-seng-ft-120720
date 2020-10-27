@@ -5,9 +5,8 @@ require "yaml"
 def load_library(library)
   emoticon_array = YAML.load_file(library)
   emoticon_array.each_with_object({}) do |(key, value), final_array|
-    final_array[key][:english] = value[0]
-    final_array[key][:japanese] = value[1]
-    binding.pry
+    final_array[key] = {:english, :japanese
+}    binding.pry
   end
   binding.pry
 end
