@@ -38,6 +38,6 @@ def get_english_meaning(library, emoticon)
       output = key
       #binding.pry
     end
-    output
   end
+  output
 end
