@@ -17,6 +17,11 @@ end
 
 def get_japanese_emoticon(emoticon)
   # code goes here
+  emoticon_lib = load_library("lib/emoticons.yml")
+  
+  emoticon_lib.each do |key, value|
+    binding.pry
+  end
   
 end
 
