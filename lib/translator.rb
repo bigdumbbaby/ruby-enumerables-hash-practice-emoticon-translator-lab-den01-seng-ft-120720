@@ -1,7 +1,8 @@
 # require modules here
+require "yalm"
 
 def load_library
-  # code goes here
+  yalm.load_file('emoticons.ylm')
 end
 
 def get_japanese_emoticon
